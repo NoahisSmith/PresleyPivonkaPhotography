@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Presley Pivonka Photography</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="nav-wrapper">
+
+        <div class="socials">
+            <a href="https://instagram.com/presley.pivonka/" target="_blank">
+				<img src="images/branding/instagram.png" alt="Instagram">
+			</a>
+
+			<a href="https://facebook.com/presley.pivonka" target="_blank">
+				<img src="images/branding/facebook.png" alt="Facebook">
+			</a>
+        </div>
+
+        <a href="index.html" class="logo">
+            <h1>PRESLEY PIVONKA</h1>
+            <span>PHOTOGRAPHY</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="page-header">
+        <h1>Let's Connect</h1>
+
+        <p>
+            I'd love to hear about your vision, answer any questions,
+            and help create images you'll treasure for years to come.
+        </p>
+    </section>
+
+    <section class="contact-section">
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Whether you're looking for family portraits, senior photos,
+                couples sessions, or wedding photography, I'd love to learn
+                more about your story.
+            </p>
+
+            <p>
+                Fill out the form and I'll get back to you as soon as possible.
+            </p>
+
+            <div class="contact-social">
+                <a href="https://instagram.com/yourprofile" target="_blank">
+                    Follow on Instagram
+                </a>
+            </div>
+
+        </div>
+
+        <form 
+			class="contact-form" 
+			action="https://formspree.io/f/xqejoepv" 
+			method="POST"
+		>
+			<input
+				type="hidden"
+				name="_subject"
+				value="New Photography Inquiry"
+			>
+
+			<input
+				type="hidden"
+				name="_next"
+				value="thank-you.html"
+			>
+			
+			<input
+				type="text"
+				name="_gotcha"
+				style="display:none"
+			/>
+
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+            >
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <label for="phone">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+            >
+
+            <label for="session-type">Session Type</label>
+            <select id="session-type" name="session-type">
+
+                <option value="">Select a Session</option>
+                <option>Family Session</option>
+                <option>Senior Portraits</option>
+                <option>Couples Session</option>
+                <option>Engagement Session</option>
+                <option>Wedding Photography</option>
+                <option>Other</option>
+
+            </select>
+
+            <label for="message">Tell Me About Your Vision</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+            ></textarea>
+
+            <button type="submit" class="submit-btn">
+                Send Inquiry
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<div class="divider"></div>
+
+<footer>
+
+    <div class="footer-inner">
+
+        <div class="footer-socials">
+            <a href="https://instagram.com/presley.pivonka/" target="_blank">
+				<img src="images/branding/instagram.png" alt="Instagram">
+			</a>
+
+			<a href="https://facebook.com/presley.pivonka" target="_blank">
+				<img src="images/branding/facebook.png" alt="Facebook">
+			</a>
+        </div>
+
+        <a href="index.html" class="footer-logo">
+            <h4>PRESLEY PIVONKA</h4>
+            <span>PHOTOGRAPHY</span>
+        </a>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
